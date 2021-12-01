@@ -1,0 +1,169 @@
+   (codepen link: https://codepen.io/MrBennettL/pen/gOGbrrr?editors=1100 )
+    1. What is Semantic HTML? 
+
+	The details of a webpage. <h1> This is an example of a header. </h1>
+	The <h1> gives the "This is an example of a header." meaning. it does what is needed. 
+
+    2. What is HTML used for? 
+
+	The structure of a website.
+    
+    3. What is an attribute and where do we put it? 
+
+	An attribute gives extra info about an HTML element. 
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+	h1 tag is used for headers. you can use up to 6. 
+
+    5. Name two tags that have required attributes
+
+	url and checkbox	
+
+    6. What do we put in the head of our HTML document?
+
+	<!DOCTYPE html>
+	<html>
+ 
+    7. What is an id? 
+
+	its used to specify a specific HTML element.
+
+    8. What elements can I add an id to? 
+
+	All of them!
+
+    9. How many times can I use the same id on a page? 
+
+	ONLY ONCE. 
+
+    10. What is a class? 
+
+	Basically, it gives specific element a name. 
+
+    11. What elements can I add a class to? 
+
+	Any of them!
+
+    12. How many times can I use the same class on a page? 
+
+	As many as you want, but things could get confusing. 
+
+    13. How do I get my link to open in a new tab?
+
+	<a href="#" target="_blank">#</a>
+
+    14. What is the alt attribute in the image tag used for? 
+
+    it's used as alternative info for the user if they can't read it for some reason or another. 
+
+    15. How do I reference an id?
+
+    #
+
+    16. What is the difference between a section and a div
+
+    Divs have no meaning. 
+
+    17. What is CSS used for? 
+
+    Stylizing a webpage.
+
+    18. How to we select an element? Example - every h2 on the page
+
+    h2{
+
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+    IDs can only be used one time on a page and are unique, while a class can be used multiple times and are NOT unique. 
+    <a class='cities'>Osaka</a>
+    <a class='cities'>Nashville</a>
+    <a class='cities'>Kansas City</a>
+    <a id='Cities'>Brooklyn</a>
+
+    20. How do we select classes in CSS?
+
+    .className{
+
+    }
+
+    21. How do we select a p element with a single class of “human””?
+
+    .human p{
+
+    }
+
+    22. What is a parent child selector? When would this be useful? 
+
+    Its when you want to choose a specific element of a parent. 
+    ex: if you wanted to select a single <p> in a <div>
+
+    23. How do you select all links within a div with the class of sidebar?
+
+    div .sidebar{
+
+    }
+
+    24. What is a pseudo selector?
+
+    it styles a certain element. 
+
+    25. What do we use the change the spacing between lines?
+
+    line-height: x;
+
+    26. What do we use to change the spacing between letters?
+
+    letter-spacing: x;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+    text-transform: uppercase
+    text-transform: lowercase
+    text-transform: capitalize
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    
+    div{
+    border: 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+
+    *{
+
+    }
+
+    30. How do I write a comment in CSS?
+
+    /**/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+    ls
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+    dir
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+
+    git rm. Be careful because it doesn't ask if you're sure you want to delete. 
+
+    34. Why should I use version control? 
+
+    That way you're not putting out a broken project
+
+    35. How often should I commit to github?
+
+    VERY often. roughly every 20 mins or so. 
+
+    36. What is the command we would use to push our repo up to github? 
+
+    git push -u origin nameHere
+
+    37. Walk me through Lambda's (BLOOMTECH'S) git flow. 
+
+    Fork > Clone > cd directoryName > git checkout -b firstName-lastName > git add . > git commit -m 'your message here.' > git push -u origin name-here > then from then on, git push.
