@@ -1,23 +1,58 @@
    (codepen link: https://codepen.io/MrBennettL/pen/gOGbrrr?editors=1100 )
     1. What is Semantic HTML? 
 
-	
+	The details of a webpage. <h1> This is an example of a header. </h1>
+	The <h1> gives the "This is an example of a header." meaning. it does what is needed. 
 
     2. What is HTML used for? 
 
 	The structure of a website.
     
     3. What is an attribute and where do we put it? 
+
+	An attribute gives extra info about an HTML element. 
+
     4. What is the h1 tag used for? How many times should I use it on a page?
+
+	h1 tag is used for headers. you can use up to 6. 
+
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+
+	url and checkbox	
+
+    6. What do we put in the head of our HTML document?
+
+	<!DOCTYPE html>
+	<html>
+ 
     7. What is an id? 
+
+	its used to specify a specific HTML element.
+
     8. What elements can I add an id to? 
+
+	All of them!
+
     9. How many times can I use the same id on a page? 
+
+	ONLY ONCE. 
+
     10. What is a class? 
+
+	Basically, it gives specific element a name. 
+
     11. What elements can I add a class to? 
+
+	Any of them!
+
     12. How many times can I use the same class on a page? 
+
+	As many as you want, but things could get confusiing. 
+
     13. How do I get my link to open in a new tab?
+
+	<a href="#" target="_blank">#</a>
+
     14. What is the alt attribute in the image tag used for? 
     15. How do I reference an id?
     16. What is the difference between a section and a div
