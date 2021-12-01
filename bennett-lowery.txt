@@ -54,6 +54,9 @@
 	<a href="#" target="_blank">#</a>
 
     14. What is the alt attribute in the image tag used for? 
+
+    
+
     15. How do I reference an id?
     16. What is the difference between a section and a div
     17. What is CSS used for? 
